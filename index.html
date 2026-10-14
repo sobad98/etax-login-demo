@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#c8101e"><title>Cổng Thuế Demo</title><link rel="stylesheet" href="style.css"></head>
+<body><main class="phone">
+<div class="notice">BẢN DEMO · KHÔNG PHẢI CỔNG THUẾ CHÍNH THỨC</div>
+<section id="loginScreen" class="login">
+  <div class="dots"></div><div class="brand"><div class="seal">★<small>THUẾ DEMO</small></div><div class="brandname">eTax <b>Demo</b></div><p>CỔNG THUẾ CÁ NHÂN · MINH HỌA</p></div>
+  <form id="loginForm" class="loginbox">
+    <label class="field"><span>♙</span><input id="username" placeholder="Tên đăng nhập demo" autocomplete="username" required></label>
+    <label class="field"><span>▣</span><input id="password" type="password" placeholder="Mật khẩu demo" autocomplete="current-password" required><button type="button" id="showPass">◉</button></label>
+    <div class="links"><button type="button" data-info="Chức năng khôi phục chỉ là minh họa.">Quên tài khoản?</button><button type="button" data-info="Bản demo không đặt lại mật khẩu thật.">Quên mật khẩu?</button></div>
+    <button class="redbtn" type="submit">Đăng nhập demo</button><p id="loginMsg" class="message" aria-live="polite"></p>
+    <button type="button" class="identity" data-info="Đăng nhập định danh điện tử chỉ được mô phỏng."><span>Đăng nhập bằng tài khoản<br><b>định danh điện tử (demo)</b></span><i>ID</i></button>
+  </form>
+  <p class="register">Bạn chưa có tài khoản? <button type="button" data-info="Đăng ký tài khoản thật không khả dụng trong bản demo.">Đăng ký ngay</button></p>
+  <div class="bottom"><span>⚒<small>Tiện ích</small></span><span>☻<small>Hỗ trợ</small></span><span>↗<small>Chia sẻ</small></span></div>
+  <div class="watermark">MÔ PHỎNG GIAO DIỆN · DỮ LIỆU GIẢ LẬP</div>
+</section>
+<section id="homeScreen" class="home" hidden>
+  <header class="appbar"><button id="menuBtn" aria-label="Mở menu">☰</button><strong><span class="star">★</span> eTax Demo</strong><span>♧　◉</span></header>
+  <div class="profile"><div class="avatar">♙</div><div><b id="profileName">NGƯỜI DÙNG DEMO</b><small>MST: DEMO-000123456</small><small>Tài khoản minh họa</small></div><span class="chevron">›</span></div>
+  <h2>Chức năng nổi bật</h2>
+  <div class="features">
+    <button data-info="Tra cứu thông tin thuế demo"><i>♙</i><span>Tra cứu<br>thông tin</span></button>
+    <button data-info="Tra cứu quyết toán demo"><i>⌕</i><span>Tra cứu<br>quyết toán</span></button>
+    <button data-info="Nộp thuế demo"><i>▤</i><span>Nộp thuế</span></button>
+    <button data-info="Lệ phí và nghĩa vụ demo"><i>▣</i><span>Lệ phí và<br>nghĩa vụ</span></button>
+  </div>
+  <h2>Danh sách nhóm dịch vụ</h2>
+  <div class="services">
+    <button data-info="Đăng ký thuế demo"><i>▧</i><span>Đăng ký thuế</span></button>
+    <button data-info="Hồ sơ quyết toán thuế TNCN demo"><i>▤</i><span>Hồ sơ quyết toán<br>thuế TNCN</span></button>
+    <button data-info="Tra cứu hồ sơ demo"><i>⌕</i><span>Tra cứu hồ sơ</span></button>
+    <button data-info="Nhóm chức năng nâng cao demo"><i>▦</i><span>Nhóm chức năng<br>nâng cao</span></button>
+    <button data-info="Tra cứu nghĩa vụ thuế demo"><i>◷</i><span>Tra cứu nghĩa vụ<br>thuế</span></button>
+    <button data-info="Tra cứu thông báo demo"><i>♧</i><span>Tra cứu thông<br>báo</span></button>
+    <button data-info="Tiện ích demo"><i>▣</i><span>Tiện ích</span></button>
+    <button data-info="Hỗ trợ demo"><i>ⓘ</i><span>Hỗ trợ</span></button>
+    <button data-info="Thiết lập cá nhân demo"><i>⚙</i><span>Thiết lập cá<br>nhân</span></button>
+  </div>
+  <div id="menu" class="menu" hidden><button data-info="Trang chủ demo">Trang chủ</button><button data-info="Hồ sơ cá nhân demo">Hồ sơ cá nhân</button><button data-info="Trợ giúp demo">Trợ giúp</button><button id="logoutMenu">Đăng xuất</button></div>
+  <p id="homeMsg" class="homemsg" aria-live="polite"></p><button id="logout" class="logout">Đăng xuất demo</button>
+  <div class="watermark darkmark">MÔ PHỎNG GIAO DIỆN · DỮ LIỆU GIẢ LẬP</div>
+</section></main><script src="script.js"></script></body></html>
